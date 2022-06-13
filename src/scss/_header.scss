@@ -1,0 +1,35 @@
+@use "variable" as v;
+nav {
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    list-style: none;
+    // gap: 2rem;
+    justify-content: center;
+  }
+  li {
+    padding: 1rem 2rem;
+  }
+  a {
+    color: v.$top-bottom;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+}
+
+.header-hero {
+  background-image: url(/src/images/header.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 1.5rem;
+
+  h1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+  }
+}
