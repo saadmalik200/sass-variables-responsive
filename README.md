@@ -1,8 +1,14 @@
 # Sassy Website
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/sass-variables-responsive/](https://saadmalik200.github.io/sass-variables-responsive/)
+
+## Challenge
+
 Create a mockup website as seen in the [reference image folder](./images_reference).
 
-**Instructions**:
+## Instructions:
 
 - To run this project, use `npm run start`
 - Use sass to create the mockup.
