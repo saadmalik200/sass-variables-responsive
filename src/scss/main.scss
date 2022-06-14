@@ -1,9 +1,9 @@
 // @use "variable";
 @use "reset";
 @use "header";
-@use "mquery";
 @use "variable" as v;
 @use "base";
+@use "mquery";
 
 body {
   font: 100% v.$font-stack;
